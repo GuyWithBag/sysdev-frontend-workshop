@@ -1,11 +1,11 @@
 import Image from "next/image";
-
+import { IoMdMenu } from "react-icons/io";
 export default function Home() {
 	return (
 		<div className="body">
 			<div className="navbar">
 				<h2>Pokedex</h2>
-				<div>Menu</div>
+				<IoMdMenu />
 			</div>
 			<div className="section">
 				<div className="card">
